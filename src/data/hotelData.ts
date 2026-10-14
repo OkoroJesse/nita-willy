@@ -90,58 +90,59 @@ export interface RoomItem {
 
 export const ROOMS_DATA: RoomItem[] = [
   {
-    id: 'executive-deluxe',
-    name: 'Executive Deluxe Suite',
-    subtitle: 'Warm Ochre Elegance & King Luxury Bedding',
+    id: 'executive',
+    name: 'Executive Suite',
+    subtitle: 'Warm Ochre Palette & King Luxury Bedding',
     category: 'Executive',
-    image: '/images/rooms/room_bed_suite.jpg',
+    image: '/images/rooms/crop_executive_bed.jpg',
     gallery: ['/images/rooms/room_bed_suite.jpg', '/images/rooms/room_deluxe_wide.png', '/images/rooms/room_tv_lounge.jpg'],
-    description: 'Featuring a plush king bed against a statement ochre feature wall with recessed ceiling illumination, custom wall art, and polished marble flooring.',
+    description: 'Featuring an expansive king bed with recessed ceiling illumination, custom wall art, ochre feature wall, and polished marble flooring.',
     confirmedFeatures: ['En-suite Bathroom', 'Air Conditioning', 'Recessed Ceiling Lighting', 'Custom Bedside Sconces', '24/7 Power'],
     capacity: '2 Guests'
   },
   {
-    id: 'classic-suite',
-    name: 'Classic Lounge Suite',
-    subtitle: 'Private Media Lounge & Entertainment Console',
-    category: 'Classic',
-    image: '/images/rooms/room_tv_lounge.jpg',
-    gallery: ['/images/rooms/room_tv_lounge.jpg', '/images/rooms/room_bed_suite.jpg', '/images/rooms/room_deluxe_wide.png'],
-    description: 'Designed for effortless comfort featuring a sleek high-gloss media console, flat-screen entertainment TV, dedicated relaxation armchairs, and warm satin gold drapes.',
-    confirmedFeatures: ['Flat-Screen Smart TV', 'In-room Climate Control', 'Lounge Seating & Marble Table', 'En-suite Bathroom', 'Aromatherapy Accents'],
-    capacity: '1–2 Guests'
-  },
-  {
-    id: 'deluxe-panorama',
+    id: 'deluxe',
     name: 'Deluxe Living & Work Suite',
     subtitle: 'Spacious Multi-Functional Living Space',
     category: 'Deluxe',
-    image: '/images/rooms/room_deluxe_wide.png',
-    gallery: ['/images/rooms/room_deluxe_wide.png', '/images/rooms/room_tv_lounge.jpg', '/images/rooms/room_bed_suite.jpg'],
-    description: 'A generous, well-appointed guest suite equipped with full timber wardrobe, vanity dressing desk with illuminated mirror, in-room refrigeration, electric kettle, and mounted TV.',
+    image: '/images/rooms/crop_deluxe_suite.jpg',
+    gallery: ['/images/rooms/room_deluxe_wide.png', '/images/rooms/room_bed_suite.jpg', '/images/rooms/room_tv_lounge.jpg'],
+    description: 'Generously proportioned suite equipped with vanity dressing desk, full wardrobe storage, refrigerator, tea station, and mounted flat-screen TV.',
     confirmedFeatures: ['Vanity Dressing Desk & Mirror', 'In-room Mini Refrigerator', 'Full Wardrobe Storage', 'Electric Kettle & Tea Station', 'Wall-Mounted Flat Screen'],
     capacity: '2 Guests'
   },
   {
-    id: 'standards',
+    id: 'classic',
+    name: 'Classic Room',
+    subtitle: 'Warm Sophistication & Media Comfort',
+    category: 'Classic',
+    image: '/images/boseats_4.webp',
+    gallery: ['/images/boseats_4.webp', '/images/rooms/room_tv_lounge.jpg', '/images/rooms/room_bed_suite.jpg'],
+    description: 'Authentic Nitawilly boutique guest room designed for quiet relaxation, featuring a comfortable double bed, en-suite bathroom, and climate control.',
+    confirmedFeatures: ['En-suite Bathroom', 'Air Conditioning', 'Flat-screen TV', 'Dedicated Workspace', 'Room Service Access'],
+    capacity: '1–2 Guests'
+  },
+  {
+    id: 'standard',
     name: 'Standard Room',
     subtitle: 'Cozy and Practical Boutique Comfort',
     category: 'Standard',
-    image: '/images/boseats_4.webp',
-    gallery: ['/images/boseats_4.webp', '/images/rooms/room_bed_suite.jpg', '/images/rooms/room_tv_lounge.jpg'],
-    description: 'An inviting boutique room offering all core hospitality essentials with climate control, en-suite bathroom, and direct access to hotel amenities.',
+    image: '/images/rooms/crop_classic_lounge.jpg',
+    gallery: ['/images/rooms/room_tv_lounge.jpg', '/images/boseats_4.webp', '/images/rooms/room_bed_suite.jpg'],
+    description: 'An inviting boutique room offering all essential amenities with climate control, lounge armchair, media console, and en-suite facilities.',
     confirmedFeatures: ['En-suite Bathroom', 'Air Conditioning', 'Daily Housekeeping', '24/7 Power Backup', 'Room Service Access'],
     capacity: '1–2 Guests'
   },
   {
     id: 'superior',
     name: 'Superior Room',
-    subtitle: 'Refined Comfort with Expansive Ambience',
+    subtitle: 'Expansive Layout & Quiet Garden Ambience',
     category: 'Superior',
-    image: '/images/rooms/room_deluxe_wide.png',
-    gallery: ['/images/rooms/room_deluxe_wide.png', '/images/rooms/room_bed_suite.jpg', '/images/boseats_4.webp'],
-    description: 'Enhanced space with generous seating, full vanity desk, climate control, and quiet garden courtyard tranquility.',
+    image: '/images/rooms/superior_pending.jpg',
+    gallery: ['/images/rooms/superior_pending.jpg', '/images/rooms/room_deluxe_wide.png', '/images/rooms/room_bed_suite.jpg'],
+    description: 'Enhanced square footage with spacious dressing area, quiet courtyard orientation, and dedicated room amenities. Photo verification in progress.',
     confirmedFeatures: ['En-suite Bathroom', 'Air Conditioning', 'Dressing / Work Station', 'Flat-screen TV', 'Mini Refrigerator'],
+    unverifiedNotes: 'Authentic bedroom photograph for Superior category pending official supply from hotel management.',
     capacity: '2 Guests'
   }
 ];

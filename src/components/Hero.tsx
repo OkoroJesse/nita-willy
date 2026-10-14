@@ -23,9 +23,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
             alt="Nitawilly Hotel and Lounge Kubwa Abuja"
             className="w-full h-full object-cover object-center filter brightness-[0.88] contrast-[1.04]"
           />
-          {/* Subtle cinematic gradient overlays */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F5] via-[#1E2022]/40 to-black/60" />
-          <div className="absolute inset-0 bg-radial from-transparent via-[#101214]/30 to-black/70" />
+          {/* Subtle cinematic gradient overlays with guaranteed text contrast */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F5] via-[#121416]/65 to-[#0D0E10]/85" />
+          <div className="absolute inset-0 bg-radial from-transparent via-[#0C0D0F]/45 to-[#000000]/75" />
         </motion.div>
       </div>
 

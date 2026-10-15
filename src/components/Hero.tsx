@@ -19,7 +19,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
         >
           {/* Authentic property imagery with warm tone gradient */}
           <img
-            src="/images/boseats_1.webp"
+            src="/images/hero_exterior.jpg"
             alt="Nitawilly Hotel and Lounge Kubwa Abuja"
             className="w-full h-full object-cover object-center filter brightness-[0.88] contrast-[1.04]"
           />

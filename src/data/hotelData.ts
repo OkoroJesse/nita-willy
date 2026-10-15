@@ -206,7 +206,7 @@ export interface GalleryPhoto {
 }
 
 export const GALLERY_DATA: GalleryPhoto[] = [
-  { id: 'g1', title: 'Main Property Facade & Arrival', category: 'exterior', src: '/images/boseats_1.webp', alt: 'Nitawilly Hotel and Lounge exterior facade and entrance gate', verified: true },
+  { id: 'g1', title: 'Main Property Facade & Arrival', category: 'exterior', src: '/images/hero_exterior.jpg', alt: 'Nitawilly Hotel and Lounge exterior building and entrance facade', verified: true },
   { id: 'g2', title: 'Executive Suite Master Bed', category: 'rooms', src: '/images/rooms/room_bed_suite.jpg', alt: 'Executive suite plush bed with ochre accent wall and lighting', verified: true },
   { id: 'g3', title: 'Private Media Lounge & TV', category: 'rooms', src: '/images/rooms/room_tv_lounge.jpg', alt: 'In-room TV media console and armchair seating', verified: true },
   { id: 'g4', title: 'Deluxe Vanity & Wardrobe Space', category: 'rooms', src: '/images/rooms/room_deluxe_wide.png', alt: 'Spacious deluxe room with wardrobe, vanity desk and refrigerator', verified: true },

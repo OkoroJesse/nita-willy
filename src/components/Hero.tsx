@@ -23,9 +23,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
             alt="Nitawilly Hotel and Lounge Kubwa Abuja"
             className="w-full h-full object-cover object-center filter brightness-[0.88] contrast-[1.04]"
           />
-          {/* Subtle cinematic gradient overlays with guaranteed text contrast */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F5] via-[#121416]/65 to-[#0D0E10]/85" />
-          <div className="absolute inset-0 bg-radial from-transparent via-[#0C0D0F]/45 to-[#000000]/75" />
+          {/* Subtle cinematic gradient overlays with guaranteed text contrast and deep slate bottom */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#141619] via-[#101214]/65 to-[#0A0B0D]/85" />
+          <div className="absolute inset-0 bg-radial from-transparent via-[#0B0C0E]/50 to-[#000000]/80" />
         </motion.div>
       </div>
 
@@ -92,24 +92,21 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.8 }}
-          className="mt-12 sm:mt-16 flex flex-wrap items-center justify-center gap-4 sm:gap-8 text-white/70 text-[11px] sm:text-xs tracking-wider uppercase font-medium"
+          className="mt-12 sm:mt-16 flex flex-wrap items-center justify-center gap-3.5 sm:gap-7 text-white/80 text-[11px] sm:text-xs tracking-wider uppercase font-medium"
         >
-          <span className="flex items-center gap-1.5">
+          <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-xs">
             <Sparkles className="w-3.5 h-3.5 text-[#C2A374]" />
             Outdoor Pool
           </span>
-          <span className="w-1 h-1 rounded-full bg-white/30 hidden sm:inline" />
-          <span className="flex items-center gap-1.5">
+          <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-xs">
             <Sparkles className="w-3.5 h-3.5 text-[#C2A374]" />
             Lounge & Bar
           </span>
-          <span className="w-1 h-1 rounded-full bg-white/30 hidden sm:inline" />
-          <span className="flex items-center gap-1.5">
+          <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-xs">
             <Sparkles className="w-3.5 h-3.5 text-[#C2A374]" />
             All Rooms En-suite
           </span>
-          <span className="w-1 h-1 rounded-full bg-white/30 hidden sm:inline" />
-          <span className="flex items-center gap-1.5">
+          <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-xs">
             <Sparkles className="w-3.5 h-3.5 text-[#C2A374]" />
             24/7 Power & Front Desk
           </span>
